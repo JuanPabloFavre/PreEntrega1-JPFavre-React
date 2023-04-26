@@ -1,11 +1,13 @@
 import './App.css';
 import './styles/style.css';
 import Container from './Layout/Container'
+import Logo from './components/Logo'
 import hambur1 from './assets/hambur1.png' 
 import hambur2 from './assets/hambur2.png' 
 import promo1 from './assets/promo1.png' 
 import combo2 from './assets/combo2.png' 
 import Card from './components/Card/Card';
+
 
 
 
@@ -48,9 +50,9 @@ function App() {
   return (
     
     <div className="App">
-       
+        <Logo/>
         <Container/>
-
+       
         <div className='articulos'>
         {contenido.map((comida,index) =>(
           <Card key={index} Titulo={comida.Titulo} Detalle={comida.Detalle} Imagen={comida.Imagen} Precio={comida.Precio}/>

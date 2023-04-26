@@ -82,15 +82,19 @@ font-size: 1.5rem;
 }
 
 .articulos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-content: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
        
 }
 
 .card{
     margin-top: 50px;
+}
+
+.logo-empresa img{
+    width: 150px;
 }
 
