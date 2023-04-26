@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+    background-image:url(../images/fondo-body.png);
+    background-size:cover;
+}
+
+ion-icon:hover{
+    color: rgb(9, 44, 85);
+}
+.nav-link{
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.logo{
+    width: 10px;
+    height: 10px;
+}
+
+.titulo-empresa{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 4rem;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.titulo-empresa:hover{
+    color: rgb(6, 25, 87);
+}
+
+.menu{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    background-color: rgb(7, 39, 28);
+    border-radius: 10px;
+    width: 700px; 
+    margin-top: 20px;
+   
+    }
+
+.menu li{
+height: 10px;
+padding: 20px;
+color: rgb(255, 255, 255);
+margin-bottom: 20px;
+list-style: none;
+font-size: 1.5rem;
+
+
+}
+
+.menu li:hover{
+    color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.orden-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    
+       
+}
+
+.card{
+    margin-top: 50px;
+}
+
