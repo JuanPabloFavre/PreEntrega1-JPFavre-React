@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar';
 import Cart from '../components/CartWidget/Cart';
-import Card from '../components/Card/Card';
+
 
 
 

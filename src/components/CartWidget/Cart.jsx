@@ -1,5 +1,5 @@
 import React from 'react'
-import Contador from '../Counter/Contador';
+
 
 const Cart = () => {
   return (
